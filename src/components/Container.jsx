@@ -5,8 +5,9 @@ import TaskList from "./TaskList";
 const Container = () => {
   const [list, setList] = useState([]);
 
-  const handleAddItem = addItem => {
-    setList([...list, addItem]);
+  const handleAddItem = addItem => {  
+    list.push(addItem)
+    setList([...list])
   };
 
   return (

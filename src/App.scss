@@ -24,6 +24,16 @@ body {
   box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
 }
 
+.todo-list-btnContainer{
+  display: flex;
+  flex-direction: column;
+
+  
+}
+
+.todo-list-btnContainer-item{
+  margin-bottom: 10px;
+}
 
 /** BUTTONS*/
 $colorPink: #e95678;
@@ -40,6 +50,7 @@ $colorBlueHover:#166b72;
 
 .button {
   outline: none;
+  width: 100%;
   padding: 8px;
   font-size: 15px;
   border: 0px solid;
